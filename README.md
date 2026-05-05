@@ -1,16 +1,58 @@
-# React + Vite
+# 🩺 Breast Cancer Prediction System (Machine Learning)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a Machine Learning-based web application that predicts whether a tumor is **Malignant (Cancerous)** or **Benign (Non-Cancerous)** based on input features.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
+- Predict breast cancer using trained ML model
+- Simple and user-friendly interface
+- Fast and accurate predictions
+- Frontend built with React + Vite
+- Backend powered by Python (Flask)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+### Frontend:
+- React (Vite)
+- Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Backend:
+- Python
+- Flask
+
+### Machine Learning:
+- Scikit-learn
+- Pandas
+- NumPy
+
+---
+
+## 📂 Project Structure
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone Repository
+```bash
+git clone https://github.com/khushi-1531/Breast_Cancer_Prediction_Machine_Learning.git
+cd Breast_Cancer_Prediction_Machine_Learning
+
+## Backend
+cd backend
+python -m venv venv
+venv\Scripts\activate   # Windows
+pip install -r requirements.txt
+python app.py (remember patient.db delete and then ctrl+c and again python app.py and click on patient.db and sqllite viewer)
+
+## Frontend
+cd frontend
+npm install
+npm run dev
+
+Run Project
+Frontend: http://localhost:5173
+Backend: http://127.0.0.1:5000
