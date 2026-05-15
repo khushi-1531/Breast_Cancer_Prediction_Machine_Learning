@@ -42,16 +42,16 @@ git clone https://github.com/khushi-1531/Breast_Cancer_Prediction_Machine_Learni
 cd Breast_Cancer_Prediction_Machine_Learning
 
 ## Backend
-cd
-src backend
+cd src
+backend
 python -m venv venv
 venv\Scripts\activate   # Windows
 pip install -r requirements.txt
 python app.py (remember patient.db delete and then ctrl+c and again python app.py and click on patient.db and sqllite viewer)
 
 ## Frontend
-cd
-src frontend
+cd src
+frontend
 npm install
 npm run dev
 
