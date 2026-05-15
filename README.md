@@ -43,7 +43,7 @@ cd Breast_Cancer_Prediction_Machine_Learning
 
 ## Backend
 cd src
-backend
+cd backend
 python -m venv venv
 venv\Scripts\activate   # Windows
 pip install -r requirements.txt
@@ -51,7 +51,7 @@ python app.py (remember patient.db delete and then ctrl+c and again python app.p
 
 ## Frontend
 cd src
-frontend
+cd frontend
 npm install
 npm run dev
 
